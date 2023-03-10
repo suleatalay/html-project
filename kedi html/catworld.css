@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: purple;
+margin:0;
+padding: 0;
+}
+.menu .navbar .logo img{
+height: 100px;	
+width: 100px;
+border-radius: 100%;
+    mix-blend-mode: screen;
+position: fixed;
+position: fixed;
+}
+.menu .navbar{
+width: 100%;
+height: 120px;
+background: rgba(22,51,111,0.5);
+position: fixed;
+    
+
+}
+.navbar .logo{
+display: inline-block;
+margin-left:50px;
+margin-top: 20px; 
+
+}
+
+.navbar ul{
+float: right;
+margin-right: 40px; 
+
+
+}
+.navbar ul li{
+text-decoration: none;
+display: inline-block;
+letter-spacing: 3px;
+list-style: none;
+margin:20px 60px;
+line-height: 80px;
+
+}
+.navbar ul li a{
+color:lime;
+text-decoration: none;
+
+}
+.navbar ul li a:hover{
+box-sizing: border-box;
+color:white;
+
+width: 60px;
+height: 60px;
+border-radius: 3px;
+box-shadow: 0 5px 15px darkblue,
+
+}
+.navbar ul li a .a{
+background-color: white;
+}
+.menu .bilgi{
+position: relative;
+top:100px;
+margin:5px;
+color:white;
+
+}
+.bilgi h4{
+color:white;
+}
+.bilgi img{
+height:250px;
+width: 250px;
+
+}
